@@ -7,5 +7,8 @@
             BarTextColor="White"
             SelectedTabColor="LightSkyBlue"
             UnselectedTabColor="DarkSlateBlue">
+    <ContentPage Title="Tab 1" IconImageSource="add_favorite.svg"/>
+    <ContentPage Title="Tab 2" IconImageSource="add_friend.svg"/>
+    <ContentPage Title="Tab 3" IconImageSource="add_image.svg"/>
 
-</TabbedPage>
+</TabbedPage> 

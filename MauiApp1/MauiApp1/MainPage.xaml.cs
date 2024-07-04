@@ -9,9 +9,8 @@
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void OnBtnClicked(object sender, EventArgs e)
         {
-
             Navigation.PushAsync(new ContentPageDemo());
         }
     }

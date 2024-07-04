@@ -7,7 +7,7 @@
 
     <FlyoutPage.Flyout>
         <ContentPage Title="My flyout">
-            <Label Text="Flyout test"
+            <Label Text="Flyout test test"
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"/>
         </ContentPage>

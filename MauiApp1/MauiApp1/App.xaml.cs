@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            var navigationPage = new NavigationPage(new MainPage());
+            var navigationPage = new NavigationPage(new ContentPageDemo());
             navigationPage.BarBackground = Colors.Purple; 
             navigationPage.BarTextColor = Colors.White;
 
