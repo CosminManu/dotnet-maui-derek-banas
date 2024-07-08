@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.StackDemo"
+             Title="StackDemo">
+    <StackLayout Margin="10" Spacing="8">
+        <Frame BorderColor="DarkGrey" Padding="5" CornerRadius="5">
+            <StackLayout Orientation="Vertical" Spacing="15">
+                <Label Text="Label 1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                       BackgroundColor="MidnightBlue"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       TextDecorations="Underline"
+                       WidthRequest="80" HeightRequest="40"/>
+
+                <Label Text="Label 2 &#10; Line 2"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       BackgroundColor="DarkGreen"
+                       TextColor="White"/>
+
+                <Label Text="Label 3"
+                       VerticalOptions="Center"
+                       HorizontalOptions="CenterAndExpand"
+                       BackgroundColor="Blue"
+                       TextColor="White"/>
+
+                <Label Text="Label 4"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"
+                       BackgroundColor="Yellow"
+                       TextColor="White"/>
+
+                <Label Text="Label 5"
+                       VerticalOptions="Center"
+                       HorizontalOptions="EndAndExpand"
+                       BackgroundColor="Red"
+                       TextColor="White"/>
+
+                <Label Text="Label 6"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Fill"
+                       BackgroundColor="Green"
+                       TextColor="White"/>
+
+                <Label Text="Label 7"
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand"
+                       BackgroundColor="Pink"
+                       TextColor="White"/>
+
+            </StackLayout>
+        </Frame>
+        <!--<Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />-->
+    </StackLayout>
+</ContentPage>
