@@ -6,11 +6,23 @@
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
+<button class="btn btn-primary" @onclick="CheckInternet">Check internet</button>
 @code {
     private int currentCount = 0;
 
     private void IncrementCount()
     {
         currentCount++;
+    }
+
+    private async void CheckInternet()
+    {
+        var hasInternet = Connectivity.Current.NetworkAccess == NetworkAccess.Internet;
+
+        var internetType = Connectivity.Current.ConnectionProfiles.FirstOrDefault();
+
+        await Application.Current.MainPage.DisplayAlert("Internet", $"Status: {hasInternet} internet type: {internetType}", "OK");
+
+
     }
 }
